@@ -1,0 +1,42 @@
+// --wp--preset--color--pale-cyan-blue: #8ed1fc;
+// --wp--preset--color--vivid-cyan-blue: #0693e3;
+// --wp--preset--color--vivid-purple: #9b51e0;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+  
+  background-image: -moz-linear-gradient(
+    135deg,
+    #8ed1fc 0%,
+    #0693e3 20%,
+    #9b51e0 100%
+  );
+
+  background-image: -o-linear-gradient(
+    135deg,
+    #8ed1fc 0%,
+    #0693e3 20%,
+    #9b51e0 100%
+  );
+
+  background-image: -webkit-linear-gradient(
+    135deg,
+    #8ed1fc 0%,
+    #0693e3 20%,
+    #9b51e0 100%
+  );
+
+  background-image: linear-gradient(
+    135deg,
+    #8ed1fc 0%,
+    #0693e3 20%,
+    #9b51e0 100%
+  );
+}
